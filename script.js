@@ -173,7 +173,7 @@ function runBankersAlgorithm() {
         });
 
 
-        document.getElementById('message').textContent = 'The system is in a safe state.Hence,there is no deadlock in the system';
+        document.getElementById('message').textContent = 'The system is in a safe state.Hence,there is no deadlock in the system.';
         document.getElementById('message').style.color = 'green';
     } else {
         document.getElementById('message').textContent = 'The system is NOT in a safe state. Deadlock may occur.';
