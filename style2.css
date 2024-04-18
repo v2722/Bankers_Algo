@@ -1,0 +1,100 @@
+/* Reset CSS */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b; 
+}
+
+/* Main Container Styles */
+.container {
+    max-width: 800px; /* Limit container width */
+    margin: 0 auto; /* Center container */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    text-align: center;
+    color: #333; /* Dark text color */
+}
+
+/* Form and Results Container Styles */
+.form-container, .results-container {
+    margin-bottom: 30px; /* Increased margin for better separation */
+}
+
+/* Input Styles */
+input[type="number"], input[type="text"], textarea {
+    width: calc(100% - 22px); /* Adjusted width to accommodate padding and border */
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    padding: 10px; /* Increased padding for better readability */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    display: block; /* Ensure input elements appear on separate lines */
+    margin: 0 auto; /* Center inputs */
+}
+
+/* Button Styles */
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensure button appears on separate line */
+    margin: 10px auto 0; /* Center button with 10px margin top and no margin at bottom */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Message Styles */
+#message {
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+
+/* Matrix Container Styles */
+.matrix-container {
+    margin-top: 30px; /* Increased margin for better spacing */
+    text-align: center;
+}
+
+/* Responsive Table Styling */
+@media (max-width: 600px) {
+    table {
+        font-size: 14px; /* Decreased font size for small screens */
+    }
+
+    th, td {
+        padding: 8px; /* Decreased padding for small screens */
+    }
+}
